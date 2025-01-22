@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300mm"
+   height="300mm"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="floppyDisk.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.28"
+     inkscape:cx="528.57143"
+     inkscape:cy="587.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="powerclip"
+       message=""
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false" />
+    <inkscape:path-effect
+       effect="powerclip"
+       message=""
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false" />
+    <inkscape:path-effect
+       effect="powerclip"
+       message=""
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,15,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,15,0,1 @ F,0,0,1,0,15,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2">
+      <rect
+         style="display:none;fill:#cccccc;stroke:#000000;stroke-width:0.488"
+         id="rect3"
+         width="29.696613"
+         height="58.20536"
+         x="179.66452"
+         y="7.4241538"
+         d="m 179.66452,7.4241538 h 29.69661 V 65.629514 h -29.69661 z" />
+      <path
+         id="lpe_path-effect3"
+         style="fill:#cccccc;stroke:#000000;stroke-width:0.488"
+         class="powerclip"
+         d="M 91.184494,-5.6639735 H 237.48937 V 79.999289 H 91.184494 Z M 179.66452,7.4241538 V 65.629514 h 29.69661 V 7.4241538 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1">
+      <g
+         id="g7"
+         style="display:none">
+        <rect
+           style="display:block;fill:#000000;stroke-width:0.264933"
+           id="rect6"
+           width="11.774832"
+           height="8.8311253"
+           x="277.82635"
+           y="267.59155"
+           d="m 277.82635,267.59155 h 11.77484 v 8.83113 h -11.77484 z" />
+        <rect
+           style="fill:#000000;stroke-width:0.264933"
+           id="rect7"
+           width="11.774832"
+           height="8.8311243"
+           x="11.759259"
+           y="266.41412"
+           d="m 11.759259,266.41412 h 11.774832 v 8.83113 H 11.759259 Z" />
+      </g>
+      <path
+         id="lpe_path-effect7"
+         class="powerclip"
+         d="M -5.6429802,-5.6655929 H 305.51026 V 304.68513 H -5.6429802 Z M 277.82635,267.59155 v 8.83113 h 11.77484 v -8.83113 z M 11.759259,266.41412 v 8.83113 h 11.774832 v -8.83113 z" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="stroke:#000000;stroke-width:0.488"
+       d="M 15,-0.41997354 H 40 L 45,5 h 30.070267 8.616076 l 7.6054,-5.41997354 h 58.848787 37.53514 37.53513 9.38379 L 240.199,7.5 H 245 L 250,-0.41997354 285,0 l 15,15 0.26625,269.44114 a 14.985185,14.985185 134.97169 0 1 -14.98518,14.99999 H 14.580026 A 14.979006,14.979006 45.040123 0 1 -0.39896516,284.44114 L -0.02100838,14.580012 A 15.021023,15.021023 135.04012 0 1 15,-0.41997354 Z"
+       id="floppyDiskBackground"
+       sodipodi:nodetypes="cccccccccccccccccc"
+       inkscape:path-effect="#path-effect1;#path-effect7"
+       inkscape:original-d="M 0,-0.41997354 H 40 L 45,5 h 30.070267 8.616076 l 7.6054,-5.41997354 h 58.848787 37.53514 37.53513 9.38379 L 240.199,7.5 H 245 L 250,-0.41997354 285,0 l 15,15 0.28107,284.44113 H -0.41997354 Z"
+       clip-path="url(#clipPath1)" />
+    <rect
+       style="stroke:#000000;stroke-width:0.488"
+       id="upperFloppyDiskBackground"
+       width="187.04601"
+       height="69.820602"
+       x="44.832176"
+       y="4.7771988" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="LowerLabel">
+    <path
+       style="fill:#cccccc;stroke-width:0.264583"
+       d="M 53.199651,112.44792 H 246.66146 a 8,8 45 0 1 8,8 l 0,173.58607 H 44.097223 l 1.05386,-173.58622 a 8.0487163,8.0487163 135.17392 0 1 8.048568,-7.99985 z"
+       id="path7"
+       sodipodi:nodetypes="ccccc"
+       inkscape:path-effect="#path-effect8"
+       inkscape:original-d="M 45.199651,112.44792 H 254.66146 l 0,181.58607 H 44.097223 Z" />
+    <circle
+       id="path8"
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.264583"
+       cx="59.898724"
+       cy="132.29167"
+       r="0.048947558" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.346169;stroke-opacity:1"
+       d="M 59.531249,136.48469 H 232.98032"
+       id="path9" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.346169;stroke-opacity:1"
+       d="M 59.531249,154.72688 H 232.98032"
+       id="path10"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.346169;stroke-opacity:1"
+       d="M 59.531249,171.71105 H 232.98032"
+       id="path11"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.346169;stroke-opacity:1"
+       d="M 59.531249,189.95324 H 232.98032"
+       id="path12"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.346169;stroke-opacity:1"
+       d="M 59.531249,208.82454 H 232.98032"
+       id="path13"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.346169;stroke-opacity:1"
+       d="M 59.531249,227.06673 H 232.98032"
+       id="path14"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.346169;stroke-opacity:1"
+       d="M 59.531249,244.0509 H 232.98032"
+       id="path15"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.346169;stroke-opacity:1"
+       d="M 59.531249,262.29309 H 232.98032"
+       id="path16"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:0;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="58.796299"
+       y="134.49652"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:0;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G';fill:#000000;stroke-width:0.264583"
+         x="58.796299"
+         y="134.49652">INDEX</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="UpperMetal">
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.488"
+       d="M 96.803899,-0.41997354 H 232.24537 V 66.755289 a 8,8 135 0 1 -8,8 H 104.38393 a 7.9554325,7.9554325 45.160041 0 1 -7.955309,-7.999875 z"
+       id="path2"
+       inkscape:path-effect="#path-effect2;#path-effect3"
+       inkscape:original-d="m 96.803899,-0.41997354 135.441471,0 V 74.755289 H 96.383929 Z"
+       clip-path="url(#clipPath2)"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.488"
+       id="rect4"
+       width="29.696609"
+       height="58.502331"
+       x="179.96149"
+       y="7.1271873"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:0;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="147.35823"
+       y="28.295719"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="stroke-width:0.264583"
+         x="147.35823"
+         y="28.295719">2 HD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:0;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="133.76158"
+       y="37.850113"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="133.76158"
+         y="37.850113">FLOPPY DISK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:0;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="138.90625"
+       y="44.832176"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="stroke-width:0.264583"
+         x="138.90625"
+         y="44.832176">FORMATED</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="138.90625"
+         y="44.832176"
+         id="tspan20" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.9682px;line-height:0;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.29379;stroke-opacity:1"
+       x="164.37378"
+       y="51.492428"
+       id="text21"
+       transform="scale(0.89881751,1.1125729)"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="font-size:10.9682px;stroke-width:0.29379"
+         x="164.37378"
+         y="51.492428">1.44</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:10.9682px;stroke-width:0.29379"
+         x="164.37378"
+         y="51.492428"
+         id="tspan22" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:0;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="164.9971"
+       y="57.326385"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="stroke-width:0.264583"
+         x="164.9971"
+         y="57.326385">MB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.6286px;line-height:0;font-family:'Linux Libertine G';-inkscape-font-specification:'Linux Libertine G';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.276898;stroke-opacity:1"
+       x="353.10886"
+       y="36.567001"
+       id="text24"
+       transform="scale(0.72144503,1.386107)"><tspan
+         id="tspan24"
+         style="stroke-width:0.276898"
+         x="353.10886"
+         y="36.567001"
+         sodipodi:role="line">HD</tspan></text>
+  </g>
+</svg>
