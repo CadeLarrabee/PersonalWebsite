@@ -8,7 +8,7 @@ const CrtScreenOverlay = ({ children }) => {
     <div className="crtWrapper">
       <div className="crtScreenOverlay">
         <CRTOutlineSVG></CRTOutlineSVG>
-        <ScreenZone></ScreenZone>
+        <ScreenZone />
       </div>
       {children}
     </div>
@@ -17,7 +17,7 @@ const CrtScreenOverlay = ({ children }) => {
 
 // Prop validation
 CrtScreenOverlay.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
 };
 
 export default CrtScreenOverlay;

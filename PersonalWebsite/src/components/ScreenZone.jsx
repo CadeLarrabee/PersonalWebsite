@@ -1,37 +1,55 @@
-//The screenzone, responsible for controlling the view.
+import { BrowserRouter, Routes, Route } from "react-router";
+//previous projects
+import BattleShipApp from "../projects/BattleshipApp";
+import StorePageApp from "../projects/StorePageApp";
+import MessageBoardApp from "../projects/MessageBoardApp";
+//info
+import Resume from "./Resume";
+import About from "./About";
+//idle
+import IdleScreen from "./IdleScreen";
 import "../css/ScreenZone.css";
-//import PropTypes from "prop-types";
+
+export const RoutesUrl = {
+  BattleShipApp: "/projects/BattleshipApp",
+  StorePageApp: "/projects/StorePageApp",
+  MessageBoardApp: "/projects/MessageBoardApp",
+  Resume: "/Resume",
+  About: "/About",
+  IdleScreen: "/",
+};
 
 const ScreenZone = () => {
-  return <div className="crt-screen"></div>;
+  return (
+    <div className="screen-zone">
+      <BrowserRouter>
+        <Routes>
+          <Route
+            element={<BattleShipApp />}
+            exact
+            path={RoutesUrl.BattleShipApp}
+          ></Route>
+          <Route
+            element={<StorePageApp />}
+            exact
+            path={RoutesUrl.StorePageApp}
+          ></Route>
+          <Route
+            element={<MessageBoardApp />}
+            exact
+            path={RoutesUrl.MessageBoardApp}
+          ></Route>
+          <Route element={<Resume />} exact path={RoutesUrl.Resume}></Route>
+          <Route element={<About />} exact path={RoutesUrl.About}></Route>
+          <Route
+            element={<IdleScreen />}
+            exact
+            path={RoutesUrl.IdleScreen}
+          ></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 };
-
-const triggerFlicker = () => {
-  const crtScreen = document.querySelector(".crt-screen::before");
-
-  if (!crtScreen) return;
-
-  // Add the animation class
-  crtScreen.style.animation = "crt-flicker 0.1s";
-
-  // Remove the animation class after it completes
-  setTimeout(() => {
-    crtScreen.style.animation = "none";
-  }, 100); // Match the animation duration
-};
-
-// Function to trigger the flicker at random intervals
-const startRandomFlicker = () => {
-  const randomInterval = Math.random() * (120000 - 10000) + 10000; // Random time between 10s and 2 minutes
-  setTimeout(() => {
-    triggerFlicker();
-    startRandomFlicker(); // Call recursively to repeat the random intervals
-  }, randomInterval);
-};
-
-// Start the random flicker effect
-startRandomFlicker();
 
 export default ScreenZone;
-
-ScreenZone.propTypes = {};
