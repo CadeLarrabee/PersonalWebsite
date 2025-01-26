@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { Routes, Route } from "react-router-dom";
 //previous projects
 import BattleShipApp from "../projects/BattleshipApp";
 import StorePageApp from "../projects/StorePageApp";
@@ -22,32 +22,16 @@ export const RoutesUrl = {
 const ScreenZone = () => {
   return (
     <div className="screen-zone">
-      <BrowserRouter>
-        <Routes>
-          <Route
-            element={<BattleShipApp />}
-            exact
-            path={RoutesUrl.BattleShipApp}
-          ></Route>
-          <Route
-            element={<StorePageApp />}
-            exact
-            path={RoutesUrl.StorePageApp}
-          ></Route>
-          <Route
-            element={<MessageBoardApp />}
-            exact
-            path={RoutesUrl.MessageBoardApp}
-          ></Route>
-          <Route element={<Resume />} exact path={RoutesUrl.Resume}></Route>
-          <Route element={<About />} exact path={RoutesUrl.About}></Route>
-          <Route
-            element={<IdleScreen />}
-            exact
-            path={RoutesUrl.IdleScreen}
-          ></Route>
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route element={<BattleShipApp />} path={RoutesUrl.BattleShipApp} />
+        <Route element={<StorePageApp />} path={RoutesUrl.StorePageApp} />
+        <Route element={<MessageBoardApp />} path={RoutesUrl.MessageBoardApp} />
+        <Route element={<Resume />} path={RoutesUrl.Resume} />
+        <Route element={<About />} path={RoutesUrl.About} />
+        <Route element={<IdleScreen />} path={RoutesUrl.IdleScreen} />
+        {/* //404 or fallback route */}
+        <Route element={<IdleScreen />} path="*" />
+      </Routes>
     </div>
   );
 };

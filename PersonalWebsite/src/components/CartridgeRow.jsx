@@ -1,9 +1,10 @@
 import { useState } from "react";
 import FloppyDisk from "./FloppyDisk";
 import { RoutesUrl } from "./ScreenZone";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 import "../css/CartridgeRow.css";
 import "../css/HandWriting.css";
+import { Link } from "react-router-dom";
 
 const CartridgeRow = () => {
   const initialDisks = [
@@ -63,25 +64,26 @@ const CartridgeRow = () => {
     }
   };
 
-  CartridgeRow.propTypes = {
-    initialDisks: PropTypes.arrayOf(
-      PropTypes.shape({
-        id: PropTypes.number.isRequired,
-        color: PropTypes.string.isRequired,
-        upperColor: PropTypes.string.isRequired,
-        handWriting: PropTypes.string.isRequired,
-      })
-    ).isRequired,
-  };
+  //   CartridgeRow.propTypes = {
+  //     initialDisks: PropTypes.arrayOf(
+  //       PropTypes.shape({
+  //         id: PropTypes.number.isRequired,
+  //         color: PropTypes.string.isRequired,
+  //         upperColor: PropTypes.string.isRequired,
+  //         handWriting: PropTypes.string.isRequired,
+  //         href: PropTypes.isRequired,
+  //       })
+  //     ).isRequired,
+  //   };
 
   return (
     <div className="cartridge-row">
       {floppyDisks.map((disk) => (
-        <a
+        <Link
           key={disk.id}
           className="floppy-container"
           onClick={() => handleDiskClick(disk.id)}
-          href={disk.href}
+          to={disk.href}
         >
           <FloppyDisk
             key={disk.id}
@@ -89,7 +91,7 @@ const CartridgeRow = () => {
             upperFloppyDiskBackground={disk.upperColor}
             handWriting={disk.handWriting}
           />
-        </a>
+        </Link>
       ))}
     </div>
   );

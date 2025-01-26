@@ -7,8 +7,8 @@ const CrtScreenOverlay = ({ children }) => {
   return (
     <div className="crtWrapper">
       <div className="crtScreenOverlay">
-        <CRTOutlineSVG></CRTOutlineSVG>
         <ScreenZone />
+        <CRTOutlineSVG></CRTOutlineSVG>
       </div>
       {children}
     </div>
