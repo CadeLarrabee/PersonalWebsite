@@ -7,11 +7,11 @@ import Note5 from "../assets/SVG/aboutHandArt.svg?react";
 
 const HandWriting = ({ noteId }) => {
   const notes = {
-    note1: <Note1 className="handWritingSvg" />,
-    note2: <Note2 className="handWritingSvg" />,
-    note3: <Note3 className="handWritingSvg" />,
-    note4: <Note4 className="handWritingSvg" />,
-    note5: <Note5 className="handWritingSvg" />,
+    BattleShipApp: <Note1 className="handWritingSvg" />,
+    StorePageApp: <Note2 className="handWritingSvg" />,
+    MessageBoardApp: <Note3 className="handWritingSvg" />,
+    Resume: <Note4 className="handWritingSvg" />,
+    About: <Note5 className="handWritingSvg" />,
   };
 
   return notes[noteId] || null;

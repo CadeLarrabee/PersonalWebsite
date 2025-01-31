@@ -19,14 +19,20 @@
 
 .screen-zone {
   display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 82%;
+  height: 82%;
   z-index: 1;
   color: red;
   overflow: hidden;
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  aspect-ratio: 1/1;
+  border: 2px solid lime;
 }
 
 /* Flicker animation */

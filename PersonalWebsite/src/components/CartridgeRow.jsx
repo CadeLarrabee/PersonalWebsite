@@ -64,18 +64,6 @@ const CartridgeRow = () => {
     }
   };
 
-  //   CartridgeRow.propTypes = {
-  //     initialDisks: PropTypes.arrayOf(
-  //       PropTypes.shape({
-  //         id: PropTypes.number.isRequired,
-  //         color: PropTypes.string.isRequired,
-  //         upperColor: PropTypes.string.isRequired,
-  //         handWriting: PropTypes.string.isRequired,
-  //         href: PropTypes.isRequired,
-  //       })
-  //     ).isRequired,
-  //   };
-
   return (
     <div className="cartridge-row">
       {floppyDisks.map((disk) => (
