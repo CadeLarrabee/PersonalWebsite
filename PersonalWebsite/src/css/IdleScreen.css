@@ -1,0 +1,116 @@
+/* Windows 98 Full Header Bar */
+.win98-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000080; /* Windows 98 deep blue */
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border: 2px solid silver;
+  border-bottom: 2px solid black;
+  height: 28px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Title Text */
+.win98-title {
+  padding-left: 36px;
+}
+
+/* Windows 98 Buttons */
+.win98-buttons {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  padding-right: 36px;
+}
+
+/* Minimize, Maximize, Close Buttons */
+.win98-btn {
+  width: 16px;
+  height: 14px;
+  background: silver;
+  border: 2px solid black;
+  box-shadow: inset -2px -2px #808080, inset 2px 2px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+/* Minimize Icon */
+.minimize::before {
+  content: "";
+  width: 12px;
+  height: 2px;
+  background: black;
+}
+
+/* Maximize Icon */
+.maximize::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  background: transparent;
+}
+
+/* Close Button */
+.close {
+  background: red;
+  border: 2px solid black;
+  color: white;
+  font-weight: bold;
+}
+
+.close::before {
+  content: "X";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  text-align: center;
+  color: white;
+}
+
+/* Ensure the whole window centers properly */
+.windowWrapper {
+  background-color: #008080; /* Windows 98 teal */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 32px; /* Prevents the header from overlapping */
+}
+
+/* Window 98 Content Box */
+.window98 {
+  width: 100%;
+  background-color: silver;
+  border: 2px solid black;
+  box-shadow: inset -2px -2px #808080, inset 2px 2px white;
+}
+
+/* Title Bar */
+.title-bar {
+  background: linear-gradient(to right, #000080, #000060);
+  color: white;
+  font-size: 14px;
+  padding: 4px 8px;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+/* Window Content */
+.window-content {
+  padding: 12px;
+  background-color: silver;
+  box-shadow: inset 2px 2px white, inset -2px -2px #808080;
+}
