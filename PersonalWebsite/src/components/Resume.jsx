@@ -36,7 +36,7 @@ const Resume = () => {
             <strong>📞 Phone:</strong> 774-236-0806
           </p>
           <p>
-            <a href="https://github.com/yourgithub" target="_blank">
+            <a href="https://github.com/CadeLarrabee" target="_blank">
               View my works on GitHub
             </a>
           </p>
