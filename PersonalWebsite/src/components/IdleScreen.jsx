@@ -1,12 +1,16 @@
 import { useEffect } from "react";
+import { useVolume } from "../context/VolumeProvider";
 import "../css/IdleScreen.css";
 
 const IdleScreen = () => {
+  //import mute
+  const { isMuted } = useVolume();
+
   useEffect(() => {
     // Check if the sound has already played in this session
     const hasPlayed = sessionStorage.getItem("startupSoundPlayed");
 
-    if (!hasPlayed) {
+    if (!hasPlayed && !isMuted) {
       const startupSound = new Audio("../public/sounds/os_startup.mp3");
       startupSound
         .play()
@@ -15,7 +19,7 @@ const IdleScreen = () => {
       // Mark it as played so it doesn't play again until a refresh
       sessionStorage.setItem("startupSoundPlayed", "true");
     }
-  }, []);
+  }, [useVolume]);
 
   return (
     <div className="windowWrapper">

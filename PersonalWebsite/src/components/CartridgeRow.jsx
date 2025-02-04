@@ -1,6 +1,7 @@
 import { useState } from "react";
 import FloppyDisk from "./FloppyDisk";
 import { RoutesUrl } from "./ScreenZone";
+import { useVolume } from "../context/VolumeProvider";
 //import PropTypes from "prop-types";
 import "../css/CartridgeRow.css";
 import "../css/HandWriting.css";
@@ -45,6 +46,9 @@ const CartridgeRow = () => {
     },
   ];
 
+  //import global volume settings
+  const { isMuted } = useVolume();
+
   const [floppyDisks, setFloppyDisks] = useState(initialDisks);
   const [lastRemovedDisk, setLastRemovedDisk] = useState(null);
 
@@ -52,8 +56,12 @@ const CartridgeRow = () => {
 
   const handleDiskClick = (diskId) => {
     const removedDisk = floppyDisks.find((disk) => disk.id === diskId);
-    InsertSound.currentTime = 0;
-    InsertSound.play().catch((err) => console.warn("Insert Sound error:", err));
+    if (!isMuted) {
+      InsertSound.currentTime = 0;
+      InsertSound.play().catch((err) =>
+        console.warn("Insert Sound error:", err)
+      );
+    }
 
     // Add the last removed disk back into the list if it exists
     if (lastRemovedDisk) {
